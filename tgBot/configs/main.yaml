@@ -1,0 +1,17 @@
+db_file: "telegram.db"
+
+bot_url: "https://web.telegram.org/a/#6004117074"
+
+
+
+messages:
+  responses:
+    start: "Привет! Чтобы начать сохранять ссылки в своем Pocket аккаунте, для начала тебе необходимо дать мне на это доступ. Для этого переходи по ссылке:\n%s"
+    alreadyAuthorized: "Ты уже авторизирован, можешь присылать ссылку"
+    unknown_command: "Я не знаю такой команды"
+    saved_successfully: "Ссылка успешно сохранена!"
+  errors:
+    default: "Произошла неизвестная ошибка"
+    invalid_url: "incorrect url address"
+    unauthorized: "user is unauthorized"
+    unable_to_save: "unable to save"
